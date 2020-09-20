@@ -1,0 +1,131 @@
+/* Подключение шрифтов */
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-Bold.woff2") format("woff2"), url("../fonts/Gilroy-Bold.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-Medium.woff2") format("woff2"), url("../fonts/Gilroy-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-Heavy.woff2") format("woff2"), url("../fonts/Gilroy-Heavy.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-ExtraBold.woff2") format("woff2"), url("../fonts/Gilroy-ExtraBold.woff") format("woff");
+	font-weight: 800;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-Regular.woff2") format("woff2"), url("../fonts/Gilroy-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-SemiBold.woff2") format("woff2"), url("../fonts/Gilroy-SemiBold.woff") format("woff");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* ------------------------------------------------------------------------------------------------- */
+/* Обнуляющий стиль */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+ol li,
+ul li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	font-size: 14px;
+	font-family: Gilroy;
+	line-height: 1;
+}
+/* ------------------------------------------------------------------------------------------------- */
+.block__bold {
+	font-weight: 700;
+	font-style: italic;
+}
+
+.block__medium {
+	font-weight: 500;
+	font-size: 20px;
+}
+
+.block__heavy {
+	font-weight: 900;
+	text-transform: uppercase;
+}
+
+.block__extrabold {
+	font-weight: 800;
+	text-shadow: 0px 0px 5px rgb(155, 18, 18);
+}
+
+.block__regular {
+	color: hsla(61, 80%, 50%, 0.925);
+}
+
+.block__semibold {
+	font-weight: 600;
+	line-height: 20px;
+}
+
+.link {
+	text-decoration: line-through;
+}
+
+.block__roboto {
+	font-family: Roboto;
+	font-style: italic;
+	font-weight: 700;
+	text-align: center;
+}
+
+.img {
+	text-align: left;
+}
